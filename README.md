@@ -4,6 +4,18 @@
 
 This project demonstrates a scalable, real-time data pipeline built on **Azure Databricks** and **Confluent Cloud Kafka**. The pipeline processes simulated ride-sharing data, transforming it through a Medallion Architecture (Bronze -> Silver -> Gold) and providing real-time analytics.
 
+### Problem Statement
+
+In the dynamic ride-sharing industry, timely access to operational data is critical for addressing issues like fraudulent activities, optimizing driver efficiency, and enhancing passenger experience. Traditional batch processing methods often introduce significant delays, hindering immediate decision-making and real-time monitoring. This project addresses the challenge of ingesting, processing, and analyzing high-volume, continuously flowing ride data with sub-second latency to provide actionable insights for operational teams.
+
+### Solution
+
+This project implements an end-to-end real-time data pipeline designed to overcome the limitations of batch processing for dynamic data streams. The solution leverages **Confluent Cloud Kafka** for high-throughput data ingestion, streaming it into **Azure Databricks**. Within Databricks, data is processed and refined through a **Medallion Architecture (Bronze, Silver, Gold layers)** using **Apache Spark Structured Streaming** and **Delta Lake**. This approach ensures data quality, consistency, and efficient transformations, enabling real-time analytics, including secure credential management via Databricks Secrets.
+
+### Significance
+
+This pipeline's significance lies in its ability to transform raw, high-volume streaming data into immediate, actionable insights, crucial for critical business operations such as real-time fraud detection and operational optimization in the ride-sharing domain. It demonstrates a robust, scalable, and fault-tolerant architecture adhering to modern cloud data engineering best practices, providing a foundation for advanced real-time analytics and continuous decision-making.
+
 ## Architecture
 
 ![Real-Time Rides Data Pipeline Architecture](screenshots/architecture.png)
