@@ -60,7 +60,7 @@ To set up and run this real-time data pipeline, follow these steps:
 3.  **Azure Storage Account (ADLS Gen2):**
     * Create a new Azure Storage Account (StorageV2, Data Lake Storage Gen2 enabled) in the same region as your Azure Databricks Workspace. This will serve as the underlying storage for your Delta Lake tables.
     * Create a file system (container) within your storage account (e.g., `realtime-rides-data`).
-    * **Configure Access:** The recommended approach for production is to use a [Service Principal](https://learn.microsoft.com/en-us/azure/databricks/scenarios/access-adls-gen2-spn) or [Managed Identities](https://learn.microsoft.com/en-us/azure/databricks/dbfs/mount-azure-data-lake-storage). For quick setup, you might use an Access Key (less secure for production but simpler for testing).
+    * **Configure Access:** The recommended approach for production is to use a Service Principal or Managed Identities. For quick setup, you might use an Access Key (less secure for production but simpler for testing).
 
 #### **2. Confluent Cloud Kafka Setup**
 
