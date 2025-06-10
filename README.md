@@ -151,29 +151,29 @@ This project provided hands-on experience and valuable insights into building ro
 
 Here are some visual demonstrations of the pipeline's components and results:
 
-#### **Kafka & Confluent Cloud Setup**
-* ![Confluent Cloud Kafka Cluster Overview and Settings](screenshots/kafka_cluster_overview-settings.png)
-* ![Kafka Topic Details (`rides_stream`)](screenshots/kafka_topic.png)
-* ![Kafka Messages Inflow](screenshots/kafka_messages_inflow.png)
+#### * **Kafka & Confluent Cloud Setup**
+![Confluent Cloud Kafka Cluster Overview and Settings](screenshots/kafka_cluster_overview-settings.png)
+![Kafka Topic Details (`rides_stream`)](screenshots/kafka_topic.png)
+![Kafka Messages Inflow](screenshots/kafka_messages_inflow.png)
 
-#### **Azure Databricks Configuration**
-* ![Azure Resource Group Overview](screenshots/Azure_resource_group.png)
-* ![Databricks Cluster Configuration](screenshots/cluster_configuration.png)
+#### * **Azure Databricks Configuration**
+![Azure Resource Group Overview](screenshots/Azure_resource_group.png)
+![Databricks Cluster Configuration](screenshots/cluster_configuration.png)
 
-#### **Bronze Layer (Raw Ingestion)**
-* ![Bronze Layer - Reading from Kafka](screenshots/bronze_readstream.png)
-* ![Bronze Layer - Writing Stream Metrics](screenshots/bronze_writestream.png)
+#### * **Bronze Layer (Raw Ingestion)**
+![Bronze Layer - Reading from Kafka](screenshots/bronze_readstream.png)
+![Bronze Layer - Writing Stream Metrics](screenshots/bronze_writestream.png)
 
-#### **Silver Layer (Cleaned & Enriched)**
-* ![Silver Layer - Reading from Bronze](screenshots/silver_readstream.png)
-* ![Silver Layer - Writing Stream Metrics](screenshots/silver_writestream.png)
+#### * **Silver Layer (Cleaned & Enriched)**
+![Silver Layer - Reading from Bronze](screenshots/silver_readstream.png)
+![Silver Layer - Writing Stream Metrics](screenshots/silver_writestream.png)
 
-#### **Gold Layer (Aggregated & Transformed)**
-* ![Gold Layer - Reading from Silver](screenshots/gold_readstream.png)
-* ![Gold Layer - Writing Stream Metrics](screenshots/gold_writestream.png)
-* ![Verifying Gold Layer Data](screenshots/verify_gold_delta_table_data.png)
-* ![Verifying Gold Layer Merge Functionality](screenshots/verify_gold_merge_functionality.png)
-* ![Verifying Gold Layer - Suspicious Rides Aggregation](screenshots/verify_gold_suspicious_rides.png)
+#### * **Gold Layer (Aggregated & Transformed)**
+![Gold Layer - Reading from Silver](screenshots/gold_readstream.png)
+  ![Gold Layer - Writing Stream Metrics](screenshots/gold_writestream.png)
+  ![Verifying Gold Layer Data](screenshots/verify_gold_delta_table_data.png)
+  ![Verifying Gold Layer Merge Functionality](screenshots/verify_gold_merge_functionality.png)
+  ![Verifying Gold Layer - Suspicious Rides Aggregation](screenshots/verify_gold_suspicious_rides.png)
 
 
 ### Conclusion / Future Enhancements (Optional)
