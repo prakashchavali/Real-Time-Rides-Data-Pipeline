@@ -1,3 +1,8 @@
+# ---------------------------------------------------------
+# Version: 1.1 (Maintenance Update May 2026)
+# Security Note: Verified environment variable injection 
+# for Confluent Cloud credentials to prevent credential leakage.
+# ---------------------------------------------------------
 import time
 import json
 import random
