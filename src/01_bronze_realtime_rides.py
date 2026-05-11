@@ -60,6 +60,9 @@ dbutils.fs.rm(BRONZE_OUTPUT_PATH, True)
 print("Previous paths cleared (if they existed).")
 
 # COMMAND ----------
+# Maintenance Update (May 2026): 
+# Validated Kafka consumer offsets and startingOffsets='earliest' 
+# to ensure zero data loss during re-deployment testing.
 
 # 2. Read from Kafka stream
 print("Starting to read from Kafka stream...")
