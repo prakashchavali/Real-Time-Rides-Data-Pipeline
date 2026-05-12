@@ -1,3 +1,8 @@
+# ---------------------------------------------------------
+# Project: Real-Time Rides Verification
+# Version: 1.1 (Maintenance Update May 2026)
+# ---------------------------------------------------------
+
 # Databricks notebook source
 # Verify the schema of the Gold Delta table
 spark.read.format("delta").table("rides_gold").printSchema()
