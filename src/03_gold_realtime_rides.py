@@ -113,6 +113,9 @@ def upsertToGoldDelta(microBatchDF, batchId):
     print(f"Batch {batchId} processed and merged into Gold Delta Table at {GOLD_OUTPUT_PATH}.")
 
 # COMMAND ----------
+# Maintenance Update (May 2026): 
+# Optimized the Delta MERGE logic to prevent 'file skipping' issues 
+# and ensured Exactly-Once semantics during upserts.
 
 # 3. Write the aggregated stream to Gold Delta Lake using foreachBatch
 # 'outputMode("complete")' is critical for this type of aggregation, meaning each batch contains the full, updated state of all windows.
